@@ -3,7 +3,7 @@ const app = express();
 
 // Root endpoint
 app.get("/", (req, res) => {
-  res.send("Hello from afsara Node.js App with CI/CD!");
+  res.send("Hello from afsara Node.js App running on Kubernetes!");
 });
 
 // Healthcheck endpoint
